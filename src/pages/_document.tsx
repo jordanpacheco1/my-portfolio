@@ -17,7 +17,6 @@ export default function Document() {
         <meta name="author" content="Jordan Pacheco Borges" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 day" />
-        <meta name="language" content="pt-br" />
         <meta name="copyright" content="&copy; 2022 Jordan Pacheco Borges" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
