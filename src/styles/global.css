@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .navbar-header {
+    @apply w-full pb-[2px] sticky top-0 z-40 transition-colors duration-500 dark:bg-slate-900 border-b dark:border-slate-300/10 backdrop-blur flex items-center justify-center;
+  }
+  .footer {
+    @apply w-full dark:bg-slate-800 border-t dark:border-white/20 h-24 flex justify-center;
+  }
+  .main {
+    @apply flex justify-center mb-auto p-3 font-extrabold;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
