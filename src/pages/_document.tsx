@@ -14,6 +14,10 @@ export default function Document() {
           name="keywords"
           content="jordan, pacheco, borges, portfolio, site, pessoal, jordan pacheco borges"
         />
+        <meta
+          name="google-site-verification"
+          content="MRAZQ0ZgMdwoPbs3wue4cLt7Ko9iOyggke5hC-3U2KI"
+        />
         <meta name="author" content="Jordan Pacheco Borges" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 day" />
