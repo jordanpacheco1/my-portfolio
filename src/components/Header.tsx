@@ -22,7 +22,7 @@ export function Header() {
           >
             <motion.div
               drag
-              dragElastic={{ top: 0, bottom: 0, left: 0.2, right: 0.3 }}
+              dragElastic={{ top: 0, bottom: 0, left: 0.15, right: 0.15 }}
               dragSnapToOrigin
               dragMomentum={false}
               dragConstraints={constraintRef}
@@ -32,6 +32,15 @@ export function Header() {
           </motion.span>
           <nav className="leading-6">
             <ul className="flex text-lg gap-6">
+              <motion.li
+                className="dark:hover:text-sky-400"
+                whileHover={{
+                  scale: 1.3,
+                  transition: { duration: 0.3, ease: "easeInOut" },
+                }}
+              >
+                <ActiveLink href="/">Home</ActiveLink>
+              </motion.li>
               <motion.li
                 className="dark:hover:text-sky-400"
                 whileHover={{
